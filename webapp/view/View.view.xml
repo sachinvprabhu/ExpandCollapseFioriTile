@@ -1,0 +1,49 @@
+<mvc:View controllerName="dev.custom.ExpandOnHover.controller.View" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:custom="dev.custom.ExpandOnHover.controls" xmlns:l="sap.ui.layout" xmlns:html="sap.ui.core.HTML">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<custom:HoverTileContainer>
+							<custom:hoverTiles>
+								<custom:HoverTile>
+									<custom:tileContent>
+										<Title text="I am always visible"></Title>
+									</custom:tileContent>
+									<custom:fullContent>
+										<Title text="I see only when you hover me"></Title>
+									</custom:fullContent>
+								</custom:HoverTile>
+								<custom:HoverTile>
+									<custom:tileContent>
+										<Title text="I am always visible"></Title>
+									</custom:tileContent>
+									<custom:fullContent>
+										<Title text="I see only when you hover me"></Title>
+									</custom:fullContent>
+								</custom:HoverTile>
+								<custom:HoverTile>
+									<custom:tileContent>
+										<Title text="I am always visible"></Title>
+									</custom:tileContent>
+									<custom:fullContent>
+										<Title text="I see only when you hover me"></Title>
+									</custom:fullContent>
+								</custom:HoverTile>
+								<custom:HoverTile>
+									<custom:tileContent>
+										<Title text="I am always visible"></Title>
+									</custom:tileContent>
+									<custom:fullContent>
+										<Title text="I see only when you hover me"></Title>
+									</custom:fullContent>
+								</custom:HoverTile>
+							</custom:hoverTiles>
+						</custom:HoverTileContainer>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
